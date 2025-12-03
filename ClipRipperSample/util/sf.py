@@ -61,7 +61,7 @@ def run_storyform(VID_ID, TOPIC, CHAPTER_NUM):
     # =============================================================================
     # CONFIGURATION - Change these values as needed
     # =============================================================================
-    API_KEY = "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"  # Put your OpenAI API key here, or leave empty to use environment variable
+    API_KEY = ""  # Put your OpenAI API key here, or leave empty to use environment variable
     # Script chunking configuration
     WORDS_PER_20_SECONDS = 55  # Average speaking rate for 20 seconds
     CHARS_PER_20_SECONDS = 350  # Approximate characters for 20 seconds
